@@ -11,7 +11,7 @@ const carsSlice = createSlice({
       state.searchTerm = action.payload;
     },
     addCar(state, action) {
-      console.log(action);
+      // console.log(action);
       state.cars.push({
         name: action.payload.name,
         cost: action.payload.cost,

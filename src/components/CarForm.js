@@ -24,6 +24,8 @@ function CarForm() {
     event.preventDefault();
 
     dispatch(addCar({ name, cost }));
+    dispatch(changeName(""));
+    dispatch(changeCost(0));
   };
 
   return (

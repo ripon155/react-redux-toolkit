@@ -14,6 +14,6 @@ const store = configureStore({
     form: formReducer,
   },
 });
-console.log(store.getState());
+// console.log(store.getState());
 
 export { store, changeSearchTerm, addCar, removeCar, changeName, changeCost };
